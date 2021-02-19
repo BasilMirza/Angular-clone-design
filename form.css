@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", "sans-serif";
+  color: white;
+}
+.main-div {
+  text-align: center;
+  background-color: #ccf2ff;
+}
+
+.main-form {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  font-family: inherit;
+  color: black;
+}
+
+.input-box {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+  border-color: white;
+  padding-left: 5px;
+  font-family: inherit;
+  
+}
+.p {
+  font-size: xx-large;
+  color: black;
+  
+}
+
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.nav-bar {
+  border: none;
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  color: white;
+  position: relative;
+
+}
+
+.right-content {
+  text-align: right;
+  
+}
+
+.right-content li {
+  position: relative;
+  top: -5px;
+}
+
+.left-content {
+  float: left;
+  padding: 0;
+  
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 14px 14px;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+li a:hover {
+  cursor: pointer;
+}
+.search-bar {
+  overflow: hidden;
+  padding: 10px 15px;
+
+  border-radius: 20px;
+  border: none;
+}
+.search-bar::placeholder {
+  font-size: 15px;
+}
+
+/* first div */
+.first-container {
+  width: 100%;
+  height: 500px;
+}
+.first-main-div {
+  background-color: #1976d2;
+  background: linear-gradient(145deg, #0d47a1, #42a5f5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  min-height: 480px;
+  /* height: 80vh; */
+  max-height: 560px;
+  box-sizing: border-box;
+  padding: 48px 48px 32px;
+  overflow: hidden;
+  transform: skewY(6deg);
+  transform-origin: 100%;
+}
+.second-main-div {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  z-index: 100;
+
+  justify-content: center;
+  padding-top: 100px;
+  position: relative;
+  left: -60px;
+}
+
+.angular-logo-div {
+  background: url("./Angular-logo.png");
+  /* background: url("https://angular.io/assets/images/logos/angular/angular.svg"); */
+  width: 350px;
+  height: 400px;
+  z-index: 100;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.angular-text {
+  z-index: 100;
+  width: 400px;
+  position: relative;
+  left: 80px;
+}
+.angular-info {
+  font-size: 40px;
+}
+.started {
+  padding: 15px 40px;
+  border-radius: 35px;
+  border: none;
+  color: #1976d2;
+  font-weight: 900;
+  font-size: 18px;
+}
+.second-container{
+    max-width: 920px;
+    margin: 32px auto;
+    display: flex;
+
+}
+.body-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1976d2;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.body-text {
+  /* font-size: 16px; */
+  line-height: 32px;
+  line-height: 3.2rem;
+  font-weight: 400;
+  color: #444;
+  line-height: 35px;
+}
+.random {
+    height: 80px;
+}
+.body-image{
+    
+    width: 380px;
+    height: 260px;
+    background-size: 330px;
+    background-repeat: no-repeat;
+
+}
+.first-image{
+  background: url('https://angular.io/generated/images/marketing/home/responsive-framework.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.second-image {
+  background: url("https://angular.io/generated/images/marketing/home/speed-performance.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.third-image {
+  background: url("https://angular.io/generated/images/marketing/home/joyful-development.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.fourth-image {
+  background: url("https://angular.io/generated/images/marketing/home/loved-by-millions.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.move-left{
+    position: relative;
+    left: 60px;
+}
+.fixed-div{
+    width: 400px;
+    text-align: justify;
+}
+.break-line{
+    /* margin: 0 50px !important; */
+    height: 1px;
+    width: 93%;
+    margin: 0 50px;
+    background:lightgray;
+}
+
+.footer-image{
+  height: 70%;
+  background-color: #1976d2;
+
+}
+.Ang-image{
+  background: url("./angular_solidBlack.png");
+  width: 100%;
+  background-repeat: repeat;
+  height: inherit;
+  opacity: 0.1;
+  position: absolute;
+  
+}
+
+
+
+.updated-fixed-div{
+  padding-left: 80px;
+  
+}
+.logo{
+  background: url("https://angular.io/assets/images/logos/angular/logo-nav@2x.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: contain;
+  position: absolute;
+  height: 50px;
+  width: 175px;
+  margin-top: -15px;
+  margin-left: 17px;
+}
+/* .logo:nth-child(3n+1){
+  margin-top: 30px;
+  position: absolute;
+  top: 30px;
+
+} */
+.updated-nav-bar{
+  padding-left: 200px;  
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.footer-ul li{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 16px;
+  line-height: 19px !important;
+  text-decoration: none !important;
+  font-family: Poppins;
+  text-align: justify;
+  }
+
+  .footer-container-header{
+    font-family: Poppins !important;
+    font-size: 25px !important;
+    line-height: 1.88;
+    color: white;
+    }
+
+    .span-icon{
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      background-color: #6960b1;
+      text-align: center;
+      padding: 2px;
+      }
+
+      .icon{
+        position: relative;
+        
+        top: 5px;
+        
+        }
+  .footer-paragraph{
+    text-align: center;
+    font-family: Poppins;
+    font-size:18px;
+  }
+  .contact {
+    background-color: teal;
+    padding-top: 20px;
+  }
+  .about {
+    background-color: teal;
+    margin-top: -20px;
+  }
+
+  .solutions {
+    background-color: teal;
+    
+  }
+  .blog {
+    background-color: teal;
+    
+  }
+
+
+
+
+
+@media only screen and (max-width: 1025px) {
+  .main-form {
+    width: 100%;
+  }
+
+  .input-box {
+    height: 40px;
+  }
+  label {
+    font-size: 24px;
+  }
+}
